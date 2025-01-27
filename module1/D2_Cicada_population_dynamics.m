@@ -4,11 +4,10 @@
 % 80% of adults are able to reproduce, each female lays 300 eggs, and 20% of eggs survive to adulthood
 % Since the life cycle of cicada is 17year, we set one cycle period is 17y
 
-% AMS 333 Mathematical Biology class homework 
 % David Hwang, 09/19/24
 
 %%%%%%%%%%%%%%%%%%%%
-%% Q1 finding carrying capacity and R0
+%% finding carrying capacity and R0
 %%%%%%%%%%%%%%%%%%%%
 
 % the life cycle of cicada is 17y, so we assume that the populations in one cycle are
@@ -64,7 +63,7 @@ title('N(n+1) VS N(n)')
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% Discrete growth model(Hassell equation) Q3
+%% Discrete growth model(Hassell equation)
 %%%%%%%%%%%%%%%%%%%%
 
 
@@ -104,7 +103,7 @@ xlabel('time (years)');ylabel('population ')
 title('population VS. year (when N0=1000000000)')
 
 %%%%%%%%%%%%%%%%%%%%
-%% Q4
+%% Simulation about the amount of popultion
 %%%%%%%%%%%%%%%%%%%%
 
 % main parameters % we set the initial population to 100
@@ -139,7 +138,7 @@ total_p = fix(total_kg/70); % vector for the number of people with an equivalent
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% Q5
+%% simulation about the time to recover the number of individuals
 %%%%%%%%%%%%%%%%%%%%
 
 
