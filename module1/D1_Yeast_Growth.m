@@ -3,7 +3,6 @@
 % Under optimal growth conditions, it can have a doubling time as fast as
 % 90minutes => let tau2 = 1.5hours(90minutes)
 
-% AMS 333 Mathematical Biology class homework 
 % David Hwang, 09/16/24
 
 
