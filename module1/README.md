@@ -5,6 +5,7 @@ This directory contains MATLAB code for simulating Yeast and Cicada population d
 Purpose: Running 
 
 #Mathematical model
+
 As a continuously growing species, we modeled the growth of yeast with an unrestricted (exponential) growth model:
       ![image](https://github.com/user-attachments/assets/12366801-451a-4804-9b06-6c0f7e842922) 
 
