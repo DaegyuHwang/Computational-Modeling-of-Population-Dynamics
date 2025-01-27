@@ -7,7 +7,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% Unrestricted(exponential) growth model (Q 1~2)
+%% Unrestricted(exponential) growth model 
 %%%%%%%%%%%%%%%%%%%%
 
 % main parameters
@@ -48,7 +48,7 @@ title('Unrestricted(exponential) growth model for Yeast')
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% Unrestricted(exponential) growth model (Q 3)
+%% Unrestricted(exponential) growth model 
 %%%%%%%%%%%%%%%%%%%%
 
 % main parameters
@@ -80,7 +80,7 @@ end
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% (Q 4) considering competition
+%%  considering competition
 %%%%%%%%%%%%%%%%%%%%
 
 max_d1 = 2*10^8; % maximal density of yeast cells per mL
@@ -96,7 +96,7 @@ vol*max_d2
 
 
 %%%%%%%%%%%%%%%%%%%%
-%% Logistic equation(Q 5) 
+%% Logistic equation
 %%%%%%%%%%%%%%%%%%%%
 
 % main parameters
