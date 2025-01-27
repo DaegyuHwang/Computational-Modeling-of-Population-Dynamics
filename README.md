@@ -5,4 +5,4 @@
 ### Module 3: SIR model for COVID-19
 ### Module 4: Malaria transmission model (Vector-borne disease)
 
-#### These projects are designed around the computational implementation of mathematical models and use of that implementation to explore the properties of the model. The projects are treated as a computational experiments and the results are written in the style of a laboratory report.
+#### These projects are designed around the computational implementation of mathematical models by using MATLAB and use of that implementation to explore the properties of the model. The projects are treated as a computational experiments and the results are written in the style of a laboratory report.
