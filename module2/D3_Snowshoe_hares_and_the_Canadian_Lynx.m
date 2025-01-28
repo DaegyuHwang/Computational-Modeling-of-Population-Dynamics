@@ -11,7 +11,7 @@
 % David Hwang, 10/14/2024
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% rate parameters of a hare(denoted as 'U') (Q2)
+%% rate parameters of a hare(denoted as 'U') 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 Birth_U=(18*0.33*0.95^11)/2; % annual per capita reproduction rate (the young can survive to adult)
@@ -21,7 +21,7 @@ Growth_U=1+Birth_U-Death_U; % a net annual per capita growth rate
 alpha=log(Growth_U); % ln(R_a)
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% rate parameters of Lynx(denoted as 'V')without hares(Q3&4)
+%% rate parameters of Lynx(denoted as 'V')without hares
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 Death_V=1-0.7^12; % annual death rate of an originally existing lynx
@@ -32,7 +32,7 @@ epsilon=1.5*0.1/10; % 10% of prey mass goes towards reproduction&rearing of kitt
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% simulation of Lokta-Volterra model (Q5)
+%% simulation of Lokta-Volterra model 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 % main parameters
@@ -108,7 +108,7 @@ title('Lynx-Hare phase plane')
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% Observation (Q6)
+%% Observation 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 % amplitude
@@ -165,7 +165,7 @@ c2 = c1*0.001; % the real time length of lynx spends at below 1 individual per 1
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% Simulation with different initial value (Q7)
+%% Simulation with different initial value 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 % main parameters
@@ -243,7 +243,6 @@ title('Lynx-Hare phase plane starts with prey 200 predator 0.5')
 % when the population is 800/2
 % => Since the population of lynx starts with big value, the hare population is not fluctuating much compared to when 400/1 
 % So the size of phase plane? is small
-% 400/1 이 이 둘사이에 있다 변동 중간 size 중간 !!!!!!!!!!!!!!!!!!!!!!
 
 % when the population is 200/.5
 % => Since the population of lynx starts with small value, the hare
@@ -252,7 +251,7 @@ title('Lynx-Hare phase plane starts with prey 200 predator 0.5')
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%%  Lotka-Volterra model with logistic growth (Q8)
+%%  Lotka-Volterra model with logistic growth 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 % main parameters
@@ -335,7 +334,7 @@ title('Lynx-Hare phase plane with logistic growth')
 % oscilating
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% Lotka-Volterra model with Holling's disk equation (Q9)
+%% Lotka-Volterra model with Holling's disk equation
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -424,7 +423,7 @@ title('Final modified Lynx-Hare phase plane')
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-%% Final modified model with logistic and Holling's dist equation (Q10)
+%% Final modified model with logistic and Holling's dist equation 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 
