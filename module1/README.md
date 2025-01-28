@@ -1,6 +1,6 @@
 #Yeast and Cicada population dynamics
 
-This directory contains MATLAB code for simulating Yeast and Cicada population dynamics and their lab reports. 
+This directory contains MATLAB code of simulating Yeast and Cicada population dynamics and their lab reports. 
 
 Purpose: Running mathematical models for the population dynamics of Yeast and Cicada to explain their growth in the real-world and discuss the implications of the the results.
 
