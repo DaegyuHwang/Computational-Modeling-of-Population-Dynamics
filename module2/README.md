@@ -1,17 +1,16 @@
 #Snowshoe hares and the Canacian Lynx population dynamics
 
-This directory contains MATLAB code for simulating hares and Lynx population dynamics and their lab reports. 
+This directory contains MATLAB code and the corresponding lab report that simultaneously simulates the dynamics of hare and lynx populations.
 
 Purpose: Running mathematical models for the population dynamics of hares and Lynx considering their pre-predator relationship to explain their growth in the real-world and discuss the implications of the the results.
 
 
-#Mathematical model used 
+#Used Mathematical model 
 
-As a continuously growing species, we modeled the growth of yeast with an unrestricted (exponential) growth model:
-      ![image](https://github.com/user-attachments/assets/12366801-451a-4804-9b06-6c0f7e842922) 
+We built a simplest mathematical model and continued to add factors to account for the phenomenon in the real-world conditions.
 
-and with the logistic equation: 
-![image](https://github.com/user-attachments/assets/1d0c8e34-d3b3-499c-a97c-29f98b17bec7)
+Since the populaions of both species show a cyclic prey-predator interactions, we started from the basic Lotka-Volterra model:
+![image](https://github.com/user-attachments/assets/07736493-b341-4f2d-8843-08e885ef329d)
 
-As a species with a clearly periodic growth cycle in which reporduction occurs in synchronized bursts, we modeled the growth of Cicada with a discrete time growth model such as that of Hassell:
-![image](https://github.com/user-attachments/assets/8dbb358e-a4ce-45e6-b7f5-86c52599d0f4)
+We proposed a more realistic model, the Hollings disk equation, that describes intraspecific competition between prey (using the logistic equation) and a saturated predator response function:
+![image](https://github.com/user-attachments/assets/6f709bf0-e26f-440d-862c-8fa0ea9ab7bd)
