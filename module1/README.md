@@ -1,11 +1,11 @@
-#Yeast and Cicada population dynamics
+### Yeast and Cicada population dynamics
 
 This directory contains MATLAB code of simulating Yeast and Cicada population dynamics and their lab reports. 
 
 Purpose: Running mathematical models for the population dynamics of Yeast and Cicada to explain their growth in the real-world and discuss the implications of the the results.
 
 
-#Used Mathematical model
+### Used Mathematical model
 
 As a continuously growing species, we modeled the growth of yeast with an unrestricted (exponential) growth model:
       ![image](https://github.com/user-attachments/assets/12366801-451a-4804-9b06-6c0f7e842922) 
