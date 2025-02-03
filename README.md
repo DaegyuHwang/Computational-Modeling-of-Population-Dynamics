@@ -2,7 +2,7 @@
 
 #### Module 1-2: Computational Modeling of population dynamics
 ### Module 1: Yeast and Cicada population dynamics
-### Module 2: Snowshoe hares and the Canadian Lynx population dynamics(prey-predator relationship)
+### Module 2: Snowshoe hares and the Canadian Lynx population dynamics (prey-predator relationship)
 
 ##
 #### Module 3-4: Computational Modeling of epidemiology
